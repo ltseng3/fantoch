@@ -50,7 +50,7 @@ pub async fn setup<'a>(
     let mut machines_iter = machines.into_iter();
     let mut launcher_iter = launcher_per_machine.iter_mut();
 
-    println!("153: before setup machines");  
+    println!("53: before setup machines");  
     
     // setup machines
     let mut launches = Vec::with_capacity(machine_count);
@@ -152,6 +152,8 @@ async fn baremetal_setup(
         }
     }
 
+    println!("155: before append ssh");  
+    
     // append ssh port
     // - TODO: I think this should be fixed in tsunami, not here
     let addr = format!("{}:22", ip);
@@ -170,6 +172,8 @@ async fn baremetal_setup(
             )
         };
 
+    println!("175: before setup w/ tsunami");  
+    
     let setup =
         tsunami::providers::baremetal::Setup::new(addr, Some(username))?
             .key_path(PRIVATE_KEY)
