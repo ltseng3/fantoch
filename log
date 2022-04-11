@@ -1,0 +1,806 @@
+2022-04-11T13:56:32.957256Z TRACE mio::poll: registering event source with poller: token=Token(33554433), interests=READABLE | WRITABLE    
+2022-04-11T13:56:32.957349Z TRACE mio::poll: registering event source with poller: token=Token(33554434), interests=READABLE | WRITABLE    
+2022-04-11T13:56:33.293080Z TRACE mio::poll: deregistering event source from poller    2022-04-11T13:56:33.293180Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:33.293246Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.3              : "128.110.96.112 10.10.1.3"[00:00:01] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:33.293311Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.3"[00:00:01] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami2022-04-11T13:56:33.293401Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "hostname -I"
+2022-04-11T13:56:33.293951Z TRACE mio::poll: registering event source with poller: token=Token(50331650), interests=READABLE | WRITABLE    
+2022-04-11T13:56:33.294053Z TRACE mio::poll: registering event source with poller: token=Token(50331649), interests=READABLE | WRITABLE    2022-04-11T13:56:33.629092Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:33.629192Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:33.629257Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.4: "128.110.96.111 10.10.1.4"[00:00:01] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:33.629325Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.4"
+[00:00:01] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)175: before setup w/ tsunami
+2022-04-11T13:56:33.629413Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "hostname -I"
+2022-04-11T13:56:33.629998Z TRACE mio::poll: registering event source with poller: token=Token(67108865), interests=READABLE | WRITABLE    
+2022-04-11T13:56:33.630097Z TRACE mio::poll: registering event source with poller: token=Token(67108866), interests=READABLE | WRITABLE    
+2022-04-11T13:56:33.969073Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:33.969172Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:33.969237Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.5: "128.110.96.101 10.10.1.5"
+[00:00:01] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:33.969298Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.5"
+[00:00:01] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami
+2022-04-11T13:56:33.969395Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "hostname -I"
+2022-04-11T13:56:33.969928Z TRACE mio::poll: registering event source with poller: token=Token(83886082), interests=READABLE | WRITABLE    
+2022-04-11T13:56:33.970030Z TRACE mio::poll: registering event source with poller: token=Token(83886081), interests=READABLE | WRITABLE    
+2022-04-11T13:56:34.309055Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:34.309155Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:34.309220Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.6: "128.110.96.104 10.10.1.6"
+[00:00:02] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:34.309285Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.6"
+[00:00:02] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami
+2022-04-11T13:56:34.309373Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "hostname -I"
+2022-04-11T13:56:34.309937Z TRACE mio::poll: registering event source with poller: token=Token(100663297), interests=READABLE | WRITABLE    
+2022-04-11T13:56:34.310041Z TRACE mio::poll: registering event source with poller: token=Token(100663298), interests=READABLE | WRITABLE    
+2022-04-11T13:56:34.648933Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:34.649032Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:34.649099Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.7: "128.110.96.115 10.10.1.7"
+[00:00:02] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:34.649161Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.7"
+[00:00:02] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami
+2022-04-11T13:56:34.649253Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "hostname -I"
+2022-04-11T13:56:34.649810Z TRACE mio::poll: registering event source with poller: token=Token(117440514), interests=READABLE | WRITABLE    
+2022-04-11T13:56:34.649915Z TRACE mio::poll: registering event source with poller: token=Token(117440513), interests=READABLE | WRITABLE    
+2022-04-11T13:56:34.988375Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:34.988475Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:34.988542Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.8: "128.110.96.107 10.10.1.8"
+[00:00:02] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:34.988606Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.8"
+[00:00:02] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami
+2022-04-11T13:56:34.988703Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "hostname -I"
+2022-04-11T13:56:34.989260Z TRACE mio::poll: registering event source with poller: token=Token(134217729), interests=READABLE | WRITABLE    
+2022-04-11T13:56:34.989363Z TRACE mio::poll: registering event source with poller: token=Token(134217730), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.329109Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.329210Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.329275Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.9: "128.110.96.93 10.10.1.9"
+[00:00:03] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:35.329342Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.9"
+[00:00:03] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami
+2022-04-11T13:56:35.329433Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "hostname -I"
+2022-04-11T13:56:35.330003Z TRACE mio::poll: registering event source with poller: token=Token(150994946), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.330108Z TRACE mio::poll: registering event source with poller: token=Token(150994945), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.672913Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.673013Z TRACE mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.673083Z  INFO fantoch_exp::testbed::baremetal: hostname -I of root@10.10.1.10: "128.110.96.120 10.10.1.10"
+[00:00:03] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T13:56:35.673152Z DEBUG fantoch_exp::testbed::baremetal: hostname -I: extracted "10.10.1.10"
+[00:00:03] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+175: before setup w/ tsunami
+182: after setup w/ tsunami
+2022-04-11T13:56:35.673294Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.673378Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.674073Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(167772161), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.674193Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(167772162), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.674312Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.674430Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.675116Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(3), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.675235Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(4), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.675353Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.675430Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.676093Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(5), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.676212Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(6), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.676327Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.676405Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.677078Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(7), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.677200Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(8), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.677322Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.677399Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.678055Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(9), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.678175Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(10), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.678293Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.678399Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.678988Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(11), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.679124Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(12), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.679310Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.679442Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.680183Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(13), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.680332Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(14), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.680524Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.680658Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.681341Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(15), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.681482Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.681664Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.681795Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.682623Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(17), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.682751Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(18), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.682896Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}: tsunami::providers::baremetal: testing address
+2022-04-11T13:56:35.682988Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.683583Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(19), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.683727Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(20), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.766906Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.774863Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.774947Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.1:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.775017Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.775452Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(184549378), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.775544Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(184549377), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.775661Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.783665Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.783727Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.2:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.783783Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.784146Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777220), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.784201Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777219), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.784285Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.789201Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.789259Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.3:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.789314Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.789591Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777222), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.789662Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777221), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.789758Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.794682Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.794737Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.4:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.794792Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.795092Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777224), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.795166Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777223), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.795262Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.801256Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.801317Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.5:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.801372Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.801670Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777226), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.801718Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777225), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.801777Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.806139Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.806215Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.6:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.806279Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.806701Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777228), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.806756Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777227), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.806837Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.811309Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.811365Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.7:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.811422Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.811794Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777230), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.811834Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777229), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.811899Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.816400Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.816450Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.8:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.816512Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.816909Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777232), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.816974Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777231), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.817035Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.821430Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.821478Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.9:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.821525Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.821795Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777234), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.821837Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777233), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.821903Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.826160Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.826231Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:try_addrs:host{host=10.10.1.10:22}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:35.826296Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T13:56:35.826599Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777236), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.826659Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(16777235), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.853187Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.853250Z DEBUG launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.1:setup.sh
+2022-04-11T13:56:35.853569Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(21), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.853620Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(22), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.865054Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.2", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.865121Z DEBUG launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.2:setup.sh
+2022-04-11T13:56:35.865444Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(23), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.865526Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(24), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.867155Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.3", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.867198Z DEBUG launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.3:setup.sh
+2022-04-11T13:56:35.867426Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(25), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.867465Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(26), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.871439Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.4", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.871496Z DEBUG launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.4:setup.sh
+2022-04-11T13:56:35.871741Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(27), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.871809Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(28), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.876076Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.5", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.876132Z DEBUG launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.5:setup.sh
+2022-04-11T13:56:35.876396Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(29), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.876447Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(30), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.880722Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.7", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.880776Z DEBUG launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.7:setup.sh
+2022-04-11T13:56:35.881050Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(31), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.881103Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(32), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.885590Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.6", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.885644Z DEBUG launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.6:setup.sh
+2022-04-11T13:56:35.885889Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(33), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.885930Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(34), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.891410Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.9", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.891465Z DEBUG launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.9:setup.sh
+2022-04-11T13:56:35.891692Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(35), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.891733Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(36), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.900964Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.10", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.901014Z DEBUG launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.10:setup.sh
+2022-04-11T13:56:35.901420Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(37), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.901457Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(38), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.928060Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}:connect_ssh{self=MachineDescriptor { nickname: "", public_dns: None, public_ip: "10.10.1.8", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+2022-04-11T13:56:35.928140Z DEBUG launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: scp -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa exp_files/setup.sh root@10.10.1.8:setup.sh
+2022-04-11T13:56:35.928438Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(39), interests=READABLE | WRITABLE    
+2022-04-11T13:56:35.928526Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(40), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.160482Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.160671Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.160775Z DEBUG launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.161308Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777240), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.161432Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("client_eu-west-1", Setup { addr: [10.10
+.1.2:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777239), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.161586Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.161737Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.161857Z DEBUG launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.162490Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777244), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.162614Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("client_us-west-1", Setup { addr: [10.10
+.1.4:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777243), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.164325Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.164452Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.164566Z DEBUG launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.165115Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777246), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.165235Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("server_ap-southeast-1_0", Setup { 
+addr: [10.10.1.5:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777245), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.187406Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.187496Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.187568Z DEBUG launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.187997Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777250), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.188080Z TRACE launch{l=LaunchDescriptor { region: "ap-southeast-1", max_wait: None, machines: [("client_ap-southeast-1", Setup { ad
+dr: [10.10.1.6:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777249), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.188157Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.188218Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.188295Z DEBUG launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.188725Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777247), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.188812Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("server_ca-central-1_0", Setup { addr
+: [10.10.1.7:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777248), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.195189Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.195259Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.195331Z DEBUG launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.195717Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777252), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.195785Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("server_sa-east-1_0", Setup { addr: [10.
+10.1.9:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777251), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.195849Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.195898Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.195945Z DEBUG launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.196376Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777254), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.196474Z TRACE launch{l=LaunchDescriptor { region: "sa-east-1", max_wait: None, machines: [("client_sa-east-1", Setup { addr: [10.10
+.1.10:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777253), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.206661Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.206757Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.206839Z DEBUG launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.207257Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777242), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.207327Z TRACE launch{l=LaunchDescriptor { region: "us-west-1", max_wait: None, machines: [("server_us-west-1_0", Setup { addr: [10.
+10.1.3:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777241), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.225708Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.225792Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.225866Z DEBUG launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.226282Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777238), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.226361Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777237), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.226552Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.226595Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T13:56:36.226639Z DEBUG launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "chmod u+x setup.sh && ./setup.sh baremetal release nfr jemalloc 2>&1"
+2022-04-11T13:56:36.226931Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777256), interests=READABLE | WRITABLE    
+2022-04-11T13:56:36.226988Z TRACE launch{l=LaunchDescriptor { region: "ca-central-1", max_wait: None, machines: [("client_ca-central-1", Setup { addr: 
+[10.10.1.8:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: registering event source with poller: token=Token(16777255), interests=READABLE | WRITABLE    
+2022-04-11T14:01:41.638146Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T14:01:41.638306Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T14:01:41.638424Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: fantoch_exp::machine: full output:
+Hit:1 http://us.archive.ubuntu.com/ubuntu bionic InRelease
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [1,454 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [2,517 kB]
+Fetched 4,223 kB in 2s (2,250 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.4ubuntu1).
+pkg-config is already the newest version (0.29.1-0ubuntu2).
+git is already the newest version (1:2.17.1-1ubuntu0.9).
+libssl-dev is already the newest version (1.1.1-1ubuntu2.1~18.04.15).
+0 upgraded, 0 newly installed, 0 to remove and 202 not upgraded.
+info: downloading installer
+warning: it looks like you have an existing installation of Rust at:
+warning: /usr/bin
+warning: rustup should not be installed alongside Rust. Please uninstall your existing Rust first.
+warning: Otherwise you may have confusion unless you are careful with your PATH
+warning: If you are sure that you want both rustup and your already installed Rust
+warning: then please reply `y' or `yes' or set RUSTUP_INIT_SKIP_PATH_CHECK to yes
+warning: or pass `-y' to ignore all ignorable checks.
+error: cannot install while Rust is installed
+warning: continuing (because the -y flag is set and the error is ignorable)
+info: profile set to 'minimal'
+info: default host triple is x86_64-unknown-linux-gnu
+info: skipping toolchain installation
+
+
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+To configure your current shell, run:
+source $HOME/.cargo/env
+info: syncing channel updates for '1.57.0-x86_64-unknown-linux-gnu'
+
+  1.57.0-x86_64-unknown-linux-gnu unchanged - rustc 1.57.0 (f1edd0429 2021-11-29)
+
+info: checking for self-updates
+info: using existing install for '1.57.0-x86_64-unknown-linux-gnu'
+info: override toolchain for '/root' set to '1.57.0-x86_64-unknown-linux-gnu'
+
+  1.57.0-x86_64-unknown-linux-gnu unchanged - rustc 1.57.0 (f1edd0429 2021-11-29)
+
+info: syncing channel updates for '1.57.0-x86_64-unknown-linux-gnu'
+
+  1.57.0-x86_64-unknown-linux-gnu unchanged - rustc 1.57.0 (f1edd0429 2021-11-29)
+
+info: checking for self-updates
+*                soft    nofile          100000
+*                hard    nofile          100000
+net.core.rmem_max = 10485760
+net.core.wmem_max = 10485760
+* Applying /etc/sysctl.d/10-console-messages.conf ...
+kernel.printk = 4 4 1 7
+* Applying /etc/sysctl.d/10-ipv6-privacy.conf ...
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.use_tempaddr = 2
+* Applying /etc/sysctl.d/10-kernel-hardening.conf ...
+kernel.kptr_restrict = 1
+* Applying /etc/sysctl.d/10-link-restrictions.conf ...
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/10-magic-sysrq.conf ...
+kernel.sysrq = 176
+* Applying /etc/sysctl.d/10-network-security.conf ...
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.tcp_syncookies = 1
+* Applying /etc/sysctl.d/10-ptrace.conf ...
+kernel.yama.ptrace_scope = 1
+* Applying /etc/sysctl.d/10-zeropage.conf ...
+vm.mmap_min_addr = 65536
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+net.ipv4.conf.all.promote_secondaries = 1
+net.core.default_qdisc = fq_codel
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+net.ipv4.conf.default.rp_filter = 0
+net.ipv4.conf.all.rp_filter = 0
+net.core.rmem_max = 10485760
+net.core.wmem_max = 10485760
+* Applying /etc/sysctl.conf ...
+net.ipv4.conf.default.rp_filter = 0
+net.ipv4.conf.all.rp_filter = 0
+net.core.rmem_max = 10485760
+net.core.wmem_max = 10485760
+Reading package lists...
+Building dependency tree...
+Reading state information...
+htop is already the newest version (2.1.0-3).
+lsof is already the newest version (4.89+dfsg-0.1).
+dstat is already the newest version (0.7.3-1).
+0 upgraded, 0 newly installed, 0 to remove and 202 not upgraded.
+Usage: dstat [-afv] [options..] [delay [count]]
+Versatile tool for generating system resource statistics
+
+Dstat options:
+  -c, --cpu                enable cpu stats
+     -C 0,3,total             include cpu0, cpu3 and total
+  -d, --disk               enable disk stats
+     -D total,hda             include hda and total
+  -g, --page               enable page stats
+  -i, --int                enable interrupt stats
+     -I 5,eth2                include int5 and interrupt used by eth2
+  -l, --load               enable load stats
+  -m, --mem                enable memory stats
+  -n, --net                enable network stats
+     -N eth1,total            include eth1 and total
+  -p, --proc               enable process stats
+  -r, --io                 enable io stats (I/O requests completed)
+  -s, --swap               enable swap stats
+     -S swap1,total           include swap1 and total
+  -t, --time               enable time/date output
+  -T, --epoch              enable time counter (seconds since epoch)
+  -y, --sys                enable system stats
+
+  --aio                    enable aio stats
+  --fs, --filesystem       enable fs stats
+  --ipc                    enable ipc stats
+  --lock                   enable lock stats
+  --raw                    enable raw stats
+  --socket                 enable socket stats
+  --tcp                    enable tcp stats
+  --udp                    enable udp stats
+  --unix                   enable unix stats
+  --vm                     enable vm stats
+  --vm-adv                 enable advanced vm stats
+  --zones                  enable zoneinfo stats
+
+  --list                   list all available plugins
+  --plugin                 enable external plugin by name (see --list)
+
+  -a, --all                equals -cdngy (default)
+  -f, --full               automatically expand -C, -D, -I, -N and -S lists
+  -v, --vmstat             equals -pmgdsc -D total
+
+  --bits                   force bits for values expressed in bytes
+  --float                  force float values on screen
+  --integer                force integer values on screen
+
+  --bw, --black-on-white   change colors for white background terminal
+  --color                  force colors
+  --nocolor                disable colors
+  --noheaders              disable repetitive headers
+  --noupdate               disable intermediate updates
+  --output file            write CSV output to file
+  --profile                show profiling statistics when exiting dstat
+
+delay is the delay in seconds between each update (default: 1)
+count is the number of updates to display before exiting (default: unlimited)
+
+lsof 4.89
+ latest revision: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/
+ latest FAQ: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/FAQ
+ latest man page: ftp://lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_man
+ usage: [-?abhKlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-E] [+|-e s] [+|-f[gG]]
+ [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+m [m]] [+|-M] [-o [o]] [-p s]
+ [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
+Defaults in parentheses; comma-separated set (s) items; dash-separated ranges.
+  -?|-h list help          -a AND selections (OR)     -b avoid kernel blocks
+  -c c  cmd c ^c /c/[bix]  +c w  COMMAND width (9)    +d s  dir s files
+  -d s  select by FD set   +D D  dir D tree *SLOW?*   +|-e s  exempt s *RISKY*
+  -i select IPv[46] files  -K list tasKs (threads)    -l list UID numbers
+  -n no host names         -N select NFS files        -o list file offset
+  -O no overhead *RISKY*   -P no port names           -R list paRent PID
+  -s list file size        -t terse listing           -T disable TCP/TPI info
+  -U select Unix socket    -v list version info       -V verbose search
+  +|-w  Warnings (+)       -X skip TCP&UDP* files     -Z Z  context [Z]
+  -- end option scan     
+  -E display endpoint info              +E display endpoint info and files
+  +f|-f  +filesystem or -file names     +|-f[gG] flaGs 
+  -F [f] select fields; -F? for help  
+  +|-L [l] list (+) suppress (-) link counts < l (0 = all; default = 0)
+                                        +m [m] use|create mount supplement
+  +|-M   portMap registration (-)       -o o   o 0t offset digits (8)
+  -p s   exclude(^)|select PIDs         -S [t] t second stat timeout (15)
+  -T qs TCP/TPI Q,St (s) info
+  -g [s] exclude(^)|select and print process group IDs
+  -i i   select by IPv[46] address: [46][proto][@host|addr][:svc_list|port_list]
+  +|-r [t[m<fmt>]] repeat every t seconds (15);  + until no files, - forever.
+       An optional suffix to t is m<fmt>; m must separate t from <fmt> and
+      <fmt> is an strftime(3) format for the marker line.
+  -s p:s  exclude(^)|select protocol (p = TCP|UDP) states by name(s).
+  -u s   exclude(^)|select login|UID set s
+  -x [fl] cross over +d|+D File systems or symbolic Links
+  names  select named files or files on named file systems
+Anyone can list all files; /dev warnings disabled; kernel ID check disabled.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 202 not upgraded.
+No local changes to save
+Already up to date.
+error: pathspec 'nfr' did not match any file(s) known to git.
+   Compiling libc v0.2.122
+   Compiling cfg-if v1.0.0
+   Compiling proc-macro2 v1.0.37
+   Compiling unicode-xid v0.2.2
+   Compiling syn v1.0.91
+   Compiling autocfg v1.1.0
+   Compiling memchr v2.4.1
+   Compiling lazy_static v1.4.0
+   Compiling once_cell v1.10.0
+   Compiling log v0.4.16
+   Compiling serde_derive v1.0.136
+   Compiling pin-project-lite v0.2.8
+   Compiling serde v1.0.136
+   Compiling smallvec v1.8.0
+   Compiling regex-syntax v0.6.25
+   Compiling cc v1.0.73
+   Compiling parking_lot_core v0.9.2
+   Compiling futures-core v0.3.21
+   Compiling scopeguard v1.1.0
+   Compiling ansi_term v0.12.1
+   Compiling adler v1.0.2
+   Compiling crossbeam-utils v0.8.8
+   Compiling version_check v0.9.4
+   Compiling futures-sink v0.3.21
+   Compiling gimli v0.26.1
+   Compiling crc32fast v1.3.2
+   Compiling eyre v0.6.8
+   Compiling ppv-lite86 v0.2.16
+   Compiling bytes v1.1.0
+   Compiling owo-colors v3.3.0
+   Compiling pin-utils v0.1.0
+   Compiling rustc-demangle v0.1.21
+   Compiling indenter v0.3.3
+   Compiling itoa v1.0.1
+   Compiling num_threads v0.1.5
+   Compiling hashbrown v0.11.2
+   Compiling bitflags v1.3.2
+   Compiling tracing-core v0.1.24
+   Compiling sharded-slab v0.1.4
+   Compiling thread_local v1.1.4
+   Compiling lock_api v0.4.7
+   Compiling miniz_oxide v0.4.4
+   Compiling indexmap v1.8.1
+   Compiling ahash v0.7.6
+   Compiling futures-channel v0.3.21
+   Compiling futures-util v0.3.21
+   Compiling tracing-log v0.1.2
+   Compiling aho-corasick v0.7.18
+   Compiling object v0.27.1
+   Compiling os_str_bytes v6.0.0
+   Compiling crossbeam-channel v0.5.4
+   Compiling quote v1.0.18
+   Compiling getrandom v0.2.6
+   Compiling num_cpus v1.13.1
+   Compiling mio v0.8.2
+   Compiling socket2 v0.4.4
+   Compiling signal-hook-registry v1.4.0
+   Compiling time v0.3.9
+   Compiling atty v0.2.14
+   Compiling backtrace v0.3.64
+   Compiling jemalloc-sys v0.3.2
+   Compiling regex-automata v0.1.10
+   Compiling rand_core v0.6.3
+   Compiling flate2 v1.0.22
+   Compiling clap v3.1.8
+   Compiling regex v1.5.5
+   Compiling rand_chacha v0.3.1
+   Compiling addr2line v0.17.0
+   Compiling rand v0.8.5
+   Compiling matchers v0.1.0
+   Compiling futures v0.3.21
+   Compiling zipf v7.0.0
+   Compiling tracing-attributes v0.1.20
+   Compiling tokio-macros v1.7.0
+   Compiling tracing v0.1.33
+   Compiling tracing-subscriber v0.3.11
+   Compiling tracing-error v0.2.0
+   Compiling tracing-appender v0.2.2
+   Compiling color-spantrace v0.2.0
+   Compiling color-eyre v0.6.1
+   Compiling hashbrown v0.12.0
+   Compiling bincode v1.3.3
+   Compiling threshold v0.9.1
+   Compiling jemallocator v0.3.2
+   Compiling parking_lot v0.12.0
+   Compiling tokio v1.17.0
+   Compiling dashmap v5.2.0
+   Compiling tokio-util v0.7.1
+   Compiling fantoch v0.1.0 (/root/fantoch/fantoch)
+warning: field is never read: `process_id`
+  --> fantoch/src/executor/aggregate.rs:10:5
+   |
+10 |     process_id: ProcessId,
+   |     ^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+   Compiling fantoch_ps v0.1.0 (/root/fantoch/fantoch_ps)
+warning: field is never read: `process_id`
+  --> fantoch_ps/src/executor/graph/executor.rs:22:5
+   |
+22 |     process_id: ProcessId,
+   |     ^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: field is never read: `process_id`
+  --> fantoch_ps/src/executor/table/executor.rs:21:5
+   |
+21 |     process_id: ProcessId,
+   |     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: field is never read: `key`
+   --> fantoch_ps/src/executor/table/mod.rs:106:5
+    |
+106 |     key: Key,
+    |     ^^^^^^^^
+
+warning: field is never read: `process_id`
+   --> fantoch_ps/src/executor/table/mod.rs:107:5
+    |
+107 |     process_id: ProcessId,
+    |     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: field is never read: `process_id`
+  --> fantoch_ps/src/executor/pred/executor.rs:19:5
+   |
+19 |     process_id: ProcessId,
+   |     ^^^^^^^^^^^^^^^^^^^^^
+
+warning: `fantoch_ps` (lib) generated 5 warnings
+warning: `fantoch` (lib) generated 1 warning
+    Finished release [optimized + debuginfo] target(s) in 4m 54s
+2022-04-11T14:01:41.982529Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T14:01:41.982578Z TRACE launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: mio::poll: deregistering event source from poller    
+2022-04-11T14:01:41.982622Z  INFO launch{l=LaunchDescriptor { region: "eu-west-1", max_wait: None, machines: [("server_eu-west-1_0", Setup { addr: [10.
+10.1.1:22], username: "root", key_path: Some("~/.ssh/id_rsa") })] }}: tsunami::providers::baremetal: instance ready
+2022-04-11T14:01:41.982706Z TRACE connect_all{self=Machine { name: "server_eu-west-1_0", addr: Some(10.10.1.1:22), username: "root", key_path: Some("~/
+.ssh/id_rsa") }}:connect_ssh{self=MachineDescriptor { nickname: "server_eu-west-1_0", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connecting
+2022-04-11T14:01:41.994438Z TRACE connect_all{self=Machine { name: "server_eu-west-1_0", addr: Some(10.10.1.1:22), username: "root", key_path: Some("~/
+.ssh/id_rsa") }}:connect_ssh{self=MachineDescriptor { nickname: "server_eu-west-1_0", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(201326593), interests=READABLE | WRITABLE    
+2022-04-11T14:01:41.994505Z TRACE connect_all{self=Machine { name: "server_eu-west-1_0", addr: Some(10.10.1.1:22), username: "root", key_path: Some("~/
+.ssh/id_rsa") }}:connect_ssh{self=MachineDescriptor { nickname: "server_eu-west-1_0", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: mio::poll: registering event source with poller: token=Token(201326594), interests=READABLE | WRITABLE    
+2022-04-11T14:01:42.143004Z TRACE connect_all{self=Machine { name: "server_eu-west-1_0", addr: Some(10.10.1.1:22), username: "root", key_path: Some("~/
+.ssh/id_rsa") }}:connect_ssh{self=MachineDescriptor { nickname: "server_eu-west-1_0", public_dns: None, public_ip: "10.10.1.1", private_ip: None, _tsunami: PhantomData } username="root" port=22}: tsunami: connected
+[00:05:09] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
