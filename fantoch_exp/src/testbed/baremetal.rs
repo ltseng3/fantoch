@@ -178,6 +178,9 @@ async fn baremetal_setup(
         tsunami::providers::baremetal::Setup::new(addr, Some(username))?
             .key_path(PRIVATE_KEY)
             .setup(fantoch_setup);
+    
+    println!("182: after setup w/ tsunami"); 
+    
     Ok(setup)
 }
 
