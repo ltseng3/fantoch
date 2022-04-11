@@ -2966,5 +2966,3 @@ fn line_style<'a>(
     );
     Ok(kwargs)
 }
-
-© 2022 GitHub, Inc. 
