@@ -50,6 +50,8 @@ pub async fn setup<'a>(
     let mut machines_iter = machines.into_iter();
     let mut launcher_iter = launcher_per_machine.iter_mut();
 
+    println!("153: before setup machines");  
+    
     // setup machines
     let mut launches = Vec::with_capacity(machine_count);
     for nickname in nicknames {
@@ -72,6 +74,8 @@ pub async fn setup<'a>(
         launches.push(launch);
     }
 
+    println!("77: before create placement");  
+    
     // create placement, servers, and clients
     let placement = super::create_placement(shard_count, regions);
     let mut servers = HashMap::with_capacity(server_count);
@@ -152,7 +156,7 @@ async fn baremetal_setup(
     // - TODO: I think this should be fixed in tsunami, not here
     let addr = format!("{}:22", ip);
     tracing::debug!("hostname -I: extracted {:?}", ip);
-
+    
     let fantoch_setup =
         if machine.contains("veleta") && !machine.contains("veleta8") {
             // don't setup if this is a veleta machine that is not veleta8
