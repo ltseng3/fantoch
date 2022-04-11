@@ -117,8 +117,8 @@ macro_rules! config {
 
 #[tokio::main]
 async fn main() -> Result<(), Report> {
-    fast_path_plot().await
-    // fairness_and_tail_latency_plot().await
+    // fast_path_plot().await
+    fairness_and_tail_latency_plot().await
     // increasing_load_plot().await
     // batching_plot().await
     // increasing_sites_plot().await
@@ -830,17 +830,18 @@ async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
 
     let mut configs = vec![
         // (protocol, (n, f, tiny quorums, clock bump interval, skip fast ack))
-        (Protocol::FPaxos, config!(n, 1, false, None, false)),
-        (Protocol::FPaxos, config!(n, 2, false, None, false)),
+        // (Protocol::FPaxos, config!(n, 1, false, None, false)),
+        // (Protocol::FPaxos, config!(n, 2, false, None, false)),
         (Protocol::TempoAtomic, config!(n, 1, false, None, false)),
         (Protocol::TempoAtomic, config!(n, 2, false, None, false)),
-        (Protocol::AtlasLocked, config!(n, 1, false, None, false)),
-        (Protocol::AtlasLocked, config!(n, 2, false, None, false)),
-        (Protocol::EPaxosLocked, config!(n, 2, false, None, false)),
-        (Protocol::CaesarLocked, config!(n, 2, false, None, false)),
+        // (Protocol::AtlasLocked, config!(n, 1, false, None, false)),
+        // (Protocol::AtlasLocked, config!(n, 2, false, None, false)),
+        // (Protocol::EPaxosLocked, config!(n, 2, false, None, false)),
+        // (Protocol::CaesarLocked, config!(n, 2, false, None, false)),
     ];
 
-    let clients_per_region = vec![256, 512];
+    //let clients_per_region = vec![256, 512];
+    let clients_per_region = vec![16];
     let batch_max_sizes = vec![1];
 
     let shard_count = 1;
@@ -866,10 +867,11 @@ async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
         workloads.push(workload);
     }
 
-    let mut skip = |protocol, _, clients| {
+    //let mut skip = |protocol, _, clients| {
         // only run FPaxos with 512 clients
-        protocol == Protocol::FPaxos && clients != 512
-    };
+    //    protocol == Protocol::FPaxos && clients != 512
+    //};
+    let mut skip = |_, _, _| false;
 
     // set shards in each config
     configs
@@ -885,13 +887,13 @@ async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
     );
 
     // create AWS planet
-    // let planet = Some(Planet::from("../latency_aws"));
+    let planet = Some(Planet::from("../latency_aws"));
 
     // baremetal_bench(
-    aws_bench(
+    // aws_bench(
         regions,
         shard_count,
-        // planet,
+        planet,
         configs,
         clients_per_region,
         workloads,
