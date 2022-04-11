@@ -1,0 +1,270 @@
+[00:06:18] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+2022-04-11T14:32:38.590640Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.591294Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.591934Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.592526Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.593124Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.593768Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.594424Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "ps -aux | grep dstat | grep -
+v grep"
+2022-04-11T14:32:38.595059Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.595707Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.596317Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "ps -aux | grep dstat | grep -v
+ grep"
+2022-04-11T14:32:38.963470Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:38.963557Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:38.998535Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:38.998623Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.004807Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.004878Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.015219Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.015313Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.019772Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.019813Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.100142Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.100206Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.117982Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.118023Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.228192Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.228297Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "ps -aux | grep dstat | grep -
+v grep | wc -l"
+2022-04-11T14:32:39.289364Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.289435Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:39.951674Z  WARN fantoch_exp::bench: dstat already not running
+2022-04-11T14:32:39.951780Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep dstat | grep -v
+ grep | wc -l"
+2022-04-11T14:32:40.556650Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill flamegraph"
+2022-04-11T14:32:40.557276Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill flamegraph"
+2022-04-11T14:32:40.557925Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill flamegraph"
+2022-04-11T14:32:40.558621Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill flamegraph"
+2022-04-11T14:32:40.559265Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill flamegraph"
+2022-04-11T14:32:40.559911Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill flamegraph"
+2022-04-11T14:32:40.560558Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill flamegraph"
+2022-04-11T14:32:40.561191Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill flamegraph"
+2022-04-11T14:32:40.561810Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill flamegraph"
+2022-04-11T14:32:40.562565Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill flamegraph"
+2022-04-11T14:32:40.563201Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill flamegraph"
+2022-04-11T14:32:40.563808Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill flamegraph"
+2022-04-11T14:32:40.564432Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill flamegraph"
+2022-04-11T14:32:40.565038Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill flamegraph"
+2022-04-11T14:32:40.565655Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill flamegraph"
+2022-04-11T14:32:40.566219Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill flamegraph"
+2022-04-11T14:32:40.566772Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill flamegraph"
+2022-04-11T14:32:40.568357Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill flamegraph"
+2022-04-11T14:32:40.569782Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill flamegraph"
+2022-04-11T14:32:40.570136Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill flamegraph"
+2022-04-11T14:32:40.570582Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill flamegraph"
+2022-04-11T14:32:40.570965Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill flamegraph"
+2022-04-11T14:32:40.571462Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill flamegraph"
+2022-04-11T14:32:40.573549Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill flamegraph"
+2022-04-11T14:32:40.573857Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill flamegraph"
+2022-04-11T14:32:40.574199Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "pkill flamegraph"
+2022-04-11T14:32:40.574560Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "pkill flamegraph"
+2022-04-11T14:32:40.577712Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "pkill flamegraph"
+2022-04-11T14:32:40.578852Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "pkill flamegraph"
+2022-04-11T14:32:40.579140Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "pkill flamegraph"
+2022-04-11T14:32:40.898033Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill heaptrack"
+2022-04-11T14:32:40.907440Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill heaptrack"
+2022-04-11T14:32:40.907849Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill heaptrack"
+2022-04-11T14:32:40.908340Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill heaptrack"
+2022-04-11T14:32:40.911274Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "pkill heaptrack"
+2022-04-11T14:32:40.914655Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill heaptrack"
+2022-04-11T14:32:40.919931Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill heaptrack"
+2022-04-11T14:32:40.920358Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill heaptrack"
+2022-04-11T14:32:40.921218Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill heaptrack"
+2022-04-11T14:32:40.922166Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill heaptrack"
+2022-04-11T14:32:40.922512Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill heaptrack"
+2022-04-11T14:32:40.922994Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill heaptrack"
+2022-04-11T14:32:40.923400Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill heaptrack"
+2022-04-11T14:32:40.923799Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill heaptrack"
+2022-04-11T14:32:40.926355Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill heaptrack"
+2022-04-11T14:32:40.927069Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill heaptrack"
+2022-04-11T14:32:40.931761Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill heaptrack"
+2022-04-11T14:32:40.932312Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill heaptrack"
+2022-04-11T14:32:40.932679Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "pkill heaptrack"
+2022-04-11T14:32:40.934657Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill heaptrack"
+2022-04-11T14:32:40.935347Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill heaptrack"
+2022-04-11T14:32:40.938069Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill heaptrack"
+2022-04-11T14:32:40.940485Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill heaptrack"
+2022-04-11T14:32:40.941524Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill heaptrack"
+2022-04-11T14:32:40.942752Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill heaptrack"
+2022-04-11T14:32:40.946720Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill heaptrack"
+2022-04-11T14:32:40.955290Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill heaptrack"
+2022-04-11T14:32:40.958316Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "pkill heaptrack"
+2022-04-11T14:32:40.978367Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "pkill heaptrack"
+2022-04-11T14:32:41.062555Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "pkill heaptrack"
+2022-04-11T14:32:41.239761Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill tempo_atomic"
+2022-04-11T14:32:41.240561Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill epaxos_locked"
+2022-04-11T14:32:41.251747Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill fpaxos"
+2022-04-11T14:32:41.253494Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "pkill client"
+2022-04-11T14:32:41.255098Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill epaxos_locked"
+2022-04-11T14:32:41.255514Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill caesar_locked"
+2022-04-11T14:32:41.256441Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill epaxos_locked"
+2022-04-11T14:32:41.258096Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill tempo_atomic"
+2022-04-11T14:32:41.258779Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill fpaxos"
+2022-04-11T14:32:41.263103Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill tempo_atomic"
+2022-04-11T14:32:41.264182Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill caesar_locked"
+2022-04-11T14:32:41.266335Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill tempo_atomic"
+2022-04-11T14:32:41.267271Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "pkill atlas_locked"
+2022-04-11T14:32:41.267691Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill caesar_locked"
+2022-04-11T14:32:41.270648Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill caesar_locked"
+2022-04-11T14:32:41.271012Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill tempo_atomic"
+2022-04-11T14:32:41.272338Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill atlas_locked"
+2022-04-11T14:32:41.273468Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "pkill atlas_locked"
+2022-04-11T14:32:41.274021Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill caesar_locked"
+2022-04-11T14:32:41.274971Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill epaxos_locked"
+2022-04-11T14:32:41.277368Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill fpaxos"
+2022-04-11T14:32:41.279053Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "pkill fpaxos"
+2022-04-11T14:32:41.284106Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill epaxos_locked"
+2022-04-11T14:32:41.289231Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "pkill client"
+2022-04-11T14:32:41.294369Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "pkill atlas_locked"
+2022-04-11T14:32:41.295081Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "pkill client"
+2022-04-11T14:32:41.311884Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill fpaxos"
+2022-04-11T14:32:41.328559Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "pkill atlas_locked"
+2022-04-11T14:32:41.330169Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "pkill client"
+2022-04-11T14:32:41.441668Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "pkill client"
+2022-04-11T14:32:41.583887Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep fantoch/target/
+release/tempo_atomic | grep -v grep | wc -l"
+2022-04-11T14:32:41.584344Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep fantoch/target/
+release/epaxos_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.584735Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep fantoch/target/
+release/fpaxos | grep -v grep | wc -l"
+2022-04-11T14:32:41.587754Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep fantoch/target/
+release/fpaxos | grep -v grep | wc -l"
+2022-04-11T14:32:41.588343Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep fantoch/target/
+release/atlas_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.589882Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep fantoch/target/
+release/tempo_atomic | grep -v grep | wc -l"
+2022-04-11T14:32:41.590685Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep fantoch/target/
+release/tempo_atomic | grep -v grep | wc -l"
+2022-04-11T14:32:41.591052Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep fantoch/target/
+release/atlas_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.591526Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep fantoch/target/
+release/caesar_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.592173Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep fantoch/target/
+release/caesar_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.592770Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep fantoch/target/
+release/caesar_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.595835Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep fantoch/target/
+release/tempo_atomic | grep -v grep | wc -l"
+2022-04-11T14:32:41.598466Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep fantoch/target/
+release/caesar_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.598910Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep fantoch/target/
+release/tempo_atomic | grep -v grep | wc -l"
+2022-04-11T14:32:41.599256Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "ps -aux | grep fantoch/target/
+release/epaxos_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.600737Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep fantoch/target/
+release/epaxos_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.602066Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep fantoch/target/
+release/atlas_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.602777Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep fantoch/target/
+release/caesar_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.607800Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep fantoch/target/
+release/epaxos_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.610866Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep fantoch/target/
+release/fpaxos | grep -v grep | wc -l"
+2022-04-11T14:32:41.611328Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "ps -aux | grep fantoch/target/
+release/fpaxos | grep -v grep | wc -l"
+2022-04-11T14:32:41.611706Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "ps -aux | grep fantoch/target/
+release/client | grep -v grep | wc -l"
+2022-04-11T14:32:41.618756Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "ps -aux | grep fantoch/target/
+release/client | grep -v grep | wc -l"
+2022-04-11T14:32:41.622913Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "ps -aux | grep fantoch/target/
+release/atlas_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.626772Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "ps -aux | grep fantoch/target/
+release/client | grep -v grep | wc -l"
+2022-04-11T14:32:41.627266Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "ps -aux | grep fantoch/target/
+release/epaxos_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.639611Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep fantoch/target/
+release/fpaxos | grep -v grep | wc -l"
+2022-04-11T14:32:41.656162Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "ps -aux | grep fantoch/target/
+release/atlas_locked | grep -v grep | wc -l"
+2022-04-11T14:32:41.670969Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "ps -aux | grep fantoch/target
+/release/client | grep -v grep | wc -l"
+2022-04-11T14:32:41.772146Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "ps -aux | grep fantoch/target/
+release/client | grep -v grep | wc -l"
+2022-04-11T14:32:41.928404Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.928844Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.931878Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.934798Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.937400Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.938756Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.940612Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.941011Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.5 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.941789Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.943900Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.944624Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.945428Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.946103Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.947074Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.3 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.947973Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.948500Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.948935Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.950945Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.952713Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.954535Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.2 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.960111Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.962396Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.967976Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.9 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.973889Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.8 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.988005Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:41.988579Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.7 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:42.001028Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.1 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:42.003439Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.4 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:42.039425Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.10 "rm -f *.log *.err *.dstat.csv
+ *.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:42.128292Z DEBUG fantoch_exp::machine: ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa root@10.10.1.6 "rm -f *.log *.err *.dstat.csv 
+*.metrics *.flamegraph.svg heaptrack.*.gz *perf.data*"
+2022-04-11T14:32:42.465747Z  INFO fantoch_exp::bench: initial cleanup completed
+2022-04-11T14:32:42.466249Z  INFO fantoch_exp::bench: experiment metrics will be saved in ../results_fairness_and_tail_latency/1649687562465858
+[00:06:22] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+hello there!
+2022-04-11T14:32:42.466407Z DEBUG fantoch_exp::bench: processes ips: {1: "10.10.1.1", 5: "10.10.1.9", 2: "10.10.1.3", 3: "10.10.1.5", 4: "10.10.1.7"}
+[00:06:22] ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  0/2  (ETA 0s)
+thread 'main' panicked at 'both regions should be part of the planet', fantoch_exp/src/bench.rs:432:14
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Aborted
