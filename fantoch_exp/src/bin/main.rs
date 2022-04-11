@@ -820,11 +820,14 @@ async fn increasing_load_plot() -> Result<(), Report> {
 async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
     let results_dir = "../results_fairness_and_tail_latency";
     let regions = vec![
-        Region::EuWest1,
         Region::UsWest1,
-        Region::ApSoutheast1,
-        Region::CaCentral1,
-        Region::SaEast1,
+        Region::UsEast1,   
+        Region::EuWest1,
+//        Region::UsWest2,        
+//        Region::ApEast1,        
+//        Region::ApSoutheast1,
+//        Region::CaCentral1,
+//        Region::SaEast1,
     ];
     let n = regions.len();
 
@@ -833,7 +836,7 @@ async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
         // (Protocol::FPaxos, config!(n, 1, false, None, false)),
         // (Protocol::FPaxos, config!(n, 2, false, None, false)),
         (Protocol::TempoAtomic, config!(n, 1, false, None, false)),
-        (Protocol::TempoAtomic, config!(n, 2, false, None, false)),
+        // (Protocol::TempoAtomic, config!(n, 2, false, None, false)),
         // (Protocol::AtlasLocked, config!(n, 1, false, None, false)),
         // (Protocol::AtlasLocked, config!(n, 2, false, None, false)),
         // (Protocol::EPaxosLocked, config!(n, 2, false, None, false)),
