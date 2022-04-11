@@ -129,6 +129,9 @@ pub async fn bench_experiment(
                             "experiment metrics will be saved in {}",
                             exp_dir
                         );
+                        
+                        println!("hello there!");
+                        
                         let run = run_experiment(
                             &machines,
                             run_mode,
@@ -213,6 +216,7 @@ async fn run_experiment(
     );
     // check if a start timeout was set
     let start_result = if let Some(timeout) = experiment_timeouts.start {
+        println!("hello there! inside start timeout");
         // if yes, abort experiment if timeout triggers
         tokio::select! {
             result = start => result,
@@ -238,6 +242,7 @@ async fn run_experiment(
     );
     // check if a run timeout was set
     let run_clients_result = if let Some(timeout) = experiment_timeouts.run {
+        println!("hello there! inside run timeout");        
         // if yes, abort experiment if timeout triggers
         tokio::select! {
             result = run_clients => result,
@@ -270,6 +275,8 @@ async fn run_experiment(
         cpus,
     );
 
+    println!("hello there! before pull metrics");    
+    
     let pull_metrics_and_stop = async {
         pull_metrics(machines, exp_config, &exp_dir)
             .await
@@ -286,6 +293,7 @@ async fn run_experiment(
 
     // check if a stop was set
     if let Some(timeout) = experiment_timeouts.stop {
+        println!("hello there! inside stop timeout");        
         // if yes, abort experiment if timeout triggers
         tokio::select! {
             result = pull_metrics_and_stop => result,
