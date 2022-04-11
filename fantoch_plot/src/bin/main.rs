@@ -23,14 +23,16 @@ const PLOT_DIR: Option<&str> = Some("plots");
 const ALL_DSTATS: bool = true;
 
 fn main() -> Result<(), Report> {
+    processed_data_to_json()?;
+    
     // set global style
-    fantoch_plot::set_global_style()?;
+    // fantoch_plot::set_global_style()?;
 
     // partial_replication_all()?;
     // multi_key()?;
     // single_key_all()?;
-    show_distance_matrix();
-    thesis()?;
+    // show_distance_matrix();
+    // thesis()?;
     Ok(())
 }
 
