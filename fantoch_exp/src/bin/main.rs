@@ -19,9 +19,9 @@ const fn minutes(minutes: u64) -> Duration {
     Duration::from_secs(one_minute * minutes)
 }
 const EXPERIMENT_TIMEOUTS: ExperimentTimeouts = ExperimentTimeouts {
-    start: Some(minutes(1)),
-    run: Some(minutes(1)),
-    stop: Some(minutes(1)),
+    start: Some(minutes(20)),
+    run: Some(minutes(20)),
+    stop: Some(minutes(20)),
 };
 
 // latency dir
