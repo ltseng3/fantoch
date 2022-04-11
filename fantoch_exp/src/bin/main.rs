@@ -1171,6 +1171,8 @@ where
     .await
     .wrap_err("local spawn")?;
 
+    println!("1174 before run_bench");  
+    
     // run benchmarks
     run_bench(
         machines,
