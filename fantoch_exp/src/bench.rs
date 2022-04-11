@@ -59,6 +59,9 @@ pub async fn bench_experiment(
     progress: &mut TracingProgressBar,
     results_dir: impl AsRef<Path>,
 ) -> Result<(), Report> {
+    
+    println!("???");        
+    
     match testbed {
         Testbed::Local | Testbed::Baremetal => {
             cleanup(&machines, protocols_to_cleanup)
