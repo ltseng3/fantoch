@@ -996,7 +996,7 @@ async fn tempo52() -> Result<(), Report> {
         Region::UsEast1,   
         Region::EuWest1,
         Region::UsWest2,
-        Region::ApNortheast1
+        Region::ApNortheast1,
     ];
     let n = regions.len();
 
@@ -1069,6 +1069,7 @@ async fn tempo72() -> Result<(), Report> {
         Region::UsEast1,   
         Region::EuWest1,
         Region::UsWest2,
+        Region::ApNortheast1,        
         Region::MeSouth1,
         Region::EuWest2,
     ];
@@ -1143,6 +1144,7 @@ async fn tempo92() -> Result<(), Report> {
         Region::UsEast1,   
         Region::EuWest1,
         Region::UsWest2,
+        Region::ApNortheast1,        
         Region::MeSouth1,
         Region::EuWest2,
         Region::EuWest3,        
@@ -1219,6 +1221,7 @@ async fn tempo113() -> Result<(), Report> {
         Region::UsEast1,   
         Region::EuWest1,
         Region::UsWest2,
+        Region::ApNortheast1,        
         Region::MeSouth1,
         Region::EuWest2,
         Region::EuWest3,        
