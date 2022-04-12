@@ -1,0 +1,62 @@
+process id: 1
+sorted processes: None
+ip: 0.0.0.0
+port: 3001
+client port: 4001
+addresses: [("10.10.1.3:3002", Some(36ms)), ("10.10.1.5:3003", Some(75ms))]
+config: Config { n: 3, f: 1, shard_count: 1, execute_at_commit: false, executor_cleanup_interval: 10ms, executor_executed_notification_interval: 50ms, executor_monitor_pending_interval: None, executor_monitor_execution_order: false, gc_interval: Some(50ms), leader: None, nfr: false, tempo_tiny_quorums: false, tempo_clock_bump_interval: None, tempo_detached_send_interval: Some(5ms), caesar_wait_condition: true, skip_fast_ack: false }
+tcp_nodelay: true
+tcp buffer size: 16777216
+tcp flush interval: Some(5ms)
+process channel buffer size: 100000000
+client channel buffer size: 10000
+workers: 16
+executors: 16
+multiplexing: 16
+execution log: None
+ping_interval: Some(500ms)
+metrics file: Some("server_1.metrics")
+stack size: 33554432
+cpus: 8 of 16
+failed to connect to "10.10.1.5:3003": Connection refused (os error 111)
+will try again in 1 second (1 out of 100)
+[metrics_logger] started with log server_1.metrics
+process 1 started
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   
+[ping_task] 3: avg=150   std=0     p95=150   p99=150   p99.9=150   p99.99=150   min=150   max=150  
+[ping_task] 2: avg=72    std=0     p95=72    p99=72    p99.9=72    p99.99=72    min=72    max=72   

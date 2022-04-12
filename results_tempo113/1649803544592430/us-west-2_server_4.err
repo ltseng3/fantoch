@@ -1,0 +1,2 @@
+log_file: Some("server_4.log")
+env_filter: tempo_atomic=info,fantoch_ps=info,fantoch=info

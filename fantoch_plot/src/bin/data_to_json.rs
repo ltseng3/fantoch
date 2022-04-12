@@ -9,8 +9,8 @@ fn main() -> Result<(), Report> {
 
 #[allow(dead_code)]
 fn processed_data_to_json() -> Result<(), Report> {
-    let results_dir = "../results_fairness_and_tail_latency";
-    let output_dir = "../results_fairness_and_tail_latency_processed";
+    let results_dir = "../results_tempo113";
+    let output_dir = "../results_tempo113_processed";
     let db = ResultsDB::load(results_dir).wrap_err("load results")?;
     db.data_to_json(output_dir)?;
     Ok(())

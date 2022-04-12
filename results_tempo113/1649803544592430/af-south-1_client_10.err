@@ -1,0 +1,2 @@
+log_file: Some("client_10.log")
+env_filter: fantoch_ps=info,fantoch=info,client=info

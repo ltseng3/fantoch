@@ -1,0 +1,340 @@
+process id: 11
+sorted processes: None
+ip: 0.0.0.0
+port: 3011
+client port: 4011
+addresses: [("10.10.1.1:3001", Some(95ms)), ("10.10.1.3:3002", Some(56ms)), ("10.10.1.5:3003", Some(91ms)), ("10.10.1.7:3004", Some(90ms)), ("10.10.1.9:3005", Some(133ms)), ("10.10.1.11:3006", Some(155ms)), ("10.10.1.13:3007", Some(97ms)), ("10.10.1.15:3008", Some(97ms)), ("10.10.1.17:3009", Some(61ms)), ("10.10.1.19:3010", Some(164ms))]
+config: Config { n: 11, f: 3, shard_count: 1, execute_at_commit: false, executor_cleanup_interval: 10ms, executor_executed_notification_interval: 50ms, executor_monitor_pending_interval: None, executor_monitor_execution_order: false, gc_interval: Some(50ms), leader: None, nfr: false, tempo_tiny_quorums: false, tempo_clock_bump_interval: None, tempo_detached_send_interval: Some(5ms), caesar_wait_condition: true, skip_fast_ack: false }
+tcp_nodelay: true
+tcp buffer size: 16777216
+tcp flush interval: Some(5ms)
+process channel buffer size: 100000000
+client channel buffer size: 10000
+workers: 16
+executors: 16
+multiplexing: 16
+execution log: None
+ping_interval: Some(500ms)
+metrics file: Some("server_11.metrics")
+stack size: 33554432
+cpus: 8 of 16
+failed to connect to "10.10.1.1:3001": Connection refused (os error 111)
+will try again in 1 second (1 out of 100)
+[metrics_logger] started with log server_11.metrics
+process 11 started
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=190   min=190   max=190  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[client_server] client disconnected.
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  
+[ping_task] 5: avg=266   std=0     p95=266   p99=266   p99.9=266   p99.99=266   min=266   max=266  
+[ping_task] 8: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 7: avg=194   std=0     p95=194   p99=194   p99.9=194   p99.99=194   min=194   max=194  
+[ping_task] 4: avg=180   std=0     p95=180   p99=180   p99.9=180   p99.99=180   min=180   max=180  
+[ping_task] 6: avg=310   std=0     p95=310   p99=310   p99.9=310   p99.99=310   min=310   max=310  
+[ping_task] 2: avg=112   std=0     p95=112   p99=112   p99.9=112   p99.99=112   min=112   max=112  
+[ping_task] 3: avg=182   std=0     p95=182   p99=182   p99.9=182   p99.99=182   min=182   max=182  
+[ping_task] 9: avg=122   std=0     p95=122   p99=122   p99.9=122   p99.99=122   min=122   max=122  
+[ping_task] 1: avg=190   std=0     p95=190   p99=190   p99.9=190   p99.99=191   min=190   max=191  
+[ping_task] 10: avg=328   std=0     p95=328   p99=328   p99.9=328   p99.99=328   min=328   max=328  

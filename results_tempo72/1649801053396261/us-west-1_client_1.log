@@ -1,0 +1,1006 @@
+ids: 1-16
+client number: 16
+addresses: ["10.10.1.1:4001"]
+workload: Workload { shard_count: 1, key_gen: ConflictPool { conflict_rate: 2, pool_size: 1 }, keys_per_command: 1, commands_per_client: 500, read_only_percentage: 0, payload_size: 8, command_count: 0 }
+batch_max_size: 1
+batch_max_delay: 5ms
+tcp_nodelay: true
+channel buffer size: 10000
+status frequency: Some(10)
+metrics file: Some("client_1.metrics")
+stack size: 8388608
+cpus: 16 of 16
+c4: 10 of 500
+c8: 10 of 500
+c10: 10 of 500
+c2: 10 of 500
+c1: 10 of 500
+c11: 10 of 500
+c9: 10 of 500
+c15: 10 of 500
+c16: 10 of 500
+c6: 10 of 500
+c3: 10 of 500
+c12: 10 of 500
+c14: 10 of 500
+c7: 10 of 500
+c13: 10 of 500
+c5: 10 of 500
+c4: 20 of 500
+c11: 20 of 500
+c8: 20 of 500
+c10: 20 of 500
+c12: 20 of 500
+c16: 20 of 500
+c15: 20 of 500
+c6: 20 of 500
+c9: 20 of 500
+c3: 20 of 500
+c14: 20 of 500
+c1: 20 of 500
+c13: 20 of 500
+c2: 20 of 500
+c5: 20 of 500
+c7: 20 of 500
+c10: 30 of 500
+c8: 30 of 500
+c11: 30 of 500
+c12: 30 of 500
+c4: 30 of 500
+c16: 30 of 500
+c3: 30 of 500
+c6: 30 of 500
+c1: 30 of 500
+c15: 30 of 500
+c14: 30 of 500
+c9: 30 of 500
+c13: 30 of 500
+c2: 30 of 500
+c7: 30 of 500
+c5: 30 of 500
+c10: 40 of 500
+c8: 40 of 500
+c11: 40 of 500
+c16: 40 of 500
+c3: 40 of 500
+c12: 40 of 500
+c4: 40 of 500
+c1: 40 of 500
+c15: 40 of 500
+c14: 40 of 500
+c9: 40 of 500
+c6: 40 of 500
+c13: 40 of 500
+c7: 40 of 500
+c5: 40 of 500
+c2: 40 of 500
+c10: 50 of 500
+c8: 50 of 500
+c11: 50 of 500
+c12: 50 of 500
+c1: 50 of 500
+c15: 50 of 500
+c3: 50 of 500
+c4: 50 of 500
+c14: 50 of 500
+c6: 50 of 500
+c9: 50 of 500
+c16: 50 of 500
+c7: 50 of 500
+c13: 50 of 500
+c5: 50 of 500
+c2: 50 of 500
+c10: 60 of 500
+c8: 60 of 500
+c11: 60 of 500
+c3: 60 of 500
+c15: 60 of 500
+c12: 60 of 500
+c4: 60 of 500
+c6: 60 of 500
+c1: 60 of 500
+c9: 60 of 500
+c16: 60 of 500
+c7: 60 of 500
+c14: 60 of 500
+c13: 60 of 500
+c5: 60 of 500
+c2: 60 of 500
+c8: 70 of 500
+c3: 70 of 500
+c15: 70 of 500
+c12: 70 of 500
+c4: 70 of 500
+c9: 70 of 500
+c10: 70 of 500
+c1: 70 of 500
+c11: 70 of 500
+c7: 70 of 500
+c14: 70 of 500
+c6: 70 of 500
+c5: 70 of 500
+c13: 70 of 500
+c16: 70 of 500
+c2: 70 of 500
+c8: 80 of 500
+c3: 80 of 500
+c12: 80 of 500
+c15: 80 of 500
+c4: 80 of 500
+c1: 80 of 500
+c10: 80 of 500
+c7: 80 of 500
+c14: 80 of 500
+c9: 80 of 500
+c6: 80 of 500
+c5: 80 of 500
+c11: 80 of 500
+c13: 80 of 500
+c16: 80 of 500
+c2: 80 of 500
+c8: 90 of 500
+c3: 90 of 500
+c12: 90 of 500
+c15: 90 of 500
+c4: 90 of 500
+c10: 90 of 500
+c1: 90 of 500
+c14: 90 of 500
+c9: 90 of 500
+c6: 90 of 500
+c5: 90 of 500
+c7: 90 of 500
+c11: 90 of 500
+c16: 90 of 500
+c13: 90 of 500
+c2: 90 of 500
+c3: 100 of 500
+c12: 100 of 500
+c4: 100 of 500
+c8: 100 of 500
+c10: 100 of 500
+c15: 100 of 500
+c1: 100 of 500
+c14: 100 of 500
+c9: 100 of 500
+c6: 100 of 500
+c7: 100 of 500
+c11: 100 of 500
+c16: 100 of 500
+c13: 100 of 500
+c5: 100 of 500
+c2: 100 of 500
+c3: 110 of 500
+c12: 110 of 500
+c4: 110 of 500
+c8: 110 of 500
+c15: 110 of 500
+c10: 110 of 500
+c1: 110 of 500
+c9: 110 of 500
+c14: 110 of 500
+c11: 110 of 500
+c6: 110 of 500
+c13: 110 of 500
+c5: 110 of 500
+c7: 110 of 500
+c16: 110 of 500
+c2: 110 of 500
+c12: 120 of 500
+c3: 120 of 500
+c4: 120 of 500
+c8: 120 of 500
+c10: 120 of 500
+c15: 120 of 500
+c1: 120 of 500
+c14: 120 of 500
+c9: 120 of 500
+c11: 120 of 500
+c6: 120 of 500
+c13: 120 of 500
+c5: 120 of 500
+c7: 120 of 500
+c2: 120 of 500
+c16: 120 of 500
+c3: 130 of 500
+c12: 130 of 500
+c4: 130 of 500
+c8: 130 of 500
+c10: 130 of 500
+c15: 130 of 500
+c1: 130 of 500
+c14: 130 of 500
+c11: 130 of 500
+c6: 130 of 500
+c13: 130 of 500
+c5: 130 of 500
+c7: 130 of 500
+c2: 130 of 500
+c16: 130 of 500
+c9: 130 of 500
+c3: 140 of 500
+c12: 140 of 500
+c4: 140 of 500
+c8: 140 of 500
+c10: 140 of 500
+c15: 140 of 500
+c1: 140 of 500
+c14: 140 of 500
+c11: 140 of 500
+c6: 140 of 500
+c5: 140 of 500
+c13: 140 of 500
+c7: 140 of 500
+c2: 140 of 500
+c16: 140 of 500
+c9: 140 of 500
+c12: 150 of 500
+c3: 150 of 500
+c4: 150 of 500
+c8: 150 of 500
+c15: 150 of 500
+c1: 150 of 500
+c14: 150 of 500
+c10: 150 of 500
+c11: 150 of 500
+c6: 150 of 500
+c5: 150 of 500
+c2: 150 of 500
+c7: 150 of 500
+c16: 150 of 500
+c9: 150 of 500
+c13: 150 of 500
+c3: 160 of 500
+c12: 160 of 500
+c8: 160 of 500
+c15: 160 of 500
+c1: 160 of 500
+c14: 160 of 500
+c4: 160 of 500
+c10: 160 of 500
+c11: 160 of 500
+c6: 160 of 500
+c5: 160 of 500
+c2: 160 of 500
+c16: 160 of 500
+c7: 160 of 500
+c9: 160 of 500
+c13: 160 of 500
+c3: 170 of 500
+c8: 170 of 500
+c15: 170 of 500
+c12: 170 of 500
+c1: 170 of 500
+c4: 170 of 500
+c10: 170 of 500
+c11: 170 of 500
+c6: 170 of 500
+c14: 170 of 500
+c2: 170 of 500
+c16: 170 of 500
+c7: 170 of 500
+c9: 170 of 500
+c5: 170 of 500
+c13: 170 of 500
+c3: 180 of 500
+c15: 180 of 500
+c8: 180 of 500
+c1: 180 of 500
+c4: 180 of 500
+c10: 180 of 500
+c12: 180 of 500
+c11: 180 of 500
+c6: 180 of 500
+c14: 180 of 500
+c2: 180 of 500
+c7: 180 of 500
+c5: 180 of 500
+c13: 180 of 500
+c16: 180 of 500
+c9: 180 of 500
+c3: 190 of 500
+c15: 190 of 500
+c1: 190 of 500
+c8: 190 of 500
+c4: 190 of 500
+c10: 190 of 500
+c12: 190 of 500
+c6: 190 of 500
+c11: 190 of 500
+c14: 190 of 500
+c2: 190 of 500
+c7: 190 of 500
+c5: 190 of 500
+c13: 190 of 500
+c16: 190 of 500
+c9: 190 of 500
+c3: 200 of 500
+c15: 200 of 500
+c1: 200 of 500
+c8: 200 of 500
+c4: 200 of 500
+c10: 200 of 500
+c12: 200 of 500
+c6: 200 of 500
+c11: 200 of 500
+c14: 200 of 500
+c2: 200 of 500
+c7: 200 of 500
+c13: 200 of 500
+c16: 200 of 500
+c9: 200 of 500
+c5: 200 of 500
+c3: 210 of 500
+c15: 210 of 500
+c1: 210 of 500
+c8: 210 of 500
+c4: 210 of 500
+c10: 210 of 500
+c12: 210 of 500
+c6: 210 of 500
+c11: 210 of 500
+c14: 210 of 500
+c2: 210 of 500
+c7: 210 of 500
+c13: 210 of 500
+c16: 210 of 500
+c9: 210 of 500
+c5: 210 of 500
+c15: 220 of 500
+c3: 220 of 500
+c1: 220 of 500
+c8: 220 of 500
+c4: 220 of 500
+c10: 220 of 500
+c12: 220 of 500
+c6: 220 of 500
+c14: 220 of 500
+c2: 220 of 500
+c7: 220 of 500
+c11: 220 of 500
+c16: 220 of 500
+c9: 220 of 500
+c13: 220 of 500
+c5: 220 of 500
+c3: 230 of 500
+c15: 230 of 500
+c1: 230 of 500
+c8: 230 of 500
+c4: 230 of 500
+c10: 230 of 500
+c12: 230 of 500
+c6: 230 of 500
+c2: 230 of 500
+c11: 230 of 500
+c14: 230 of 500
+c7: 230 of 500
+c9: 230 of 500
+c5: 230 of 500
+c13: 230 of 500
+c16: 230 of 500
+c3: 240 of 500
+c15: 240 of 500
+c8: 240 of 500
+c1: 240 of 500
+c4: 240 of 500
+c12: 240 of 500
+c6: 240 of 500
+c10: 240 of 500
+c2: 240 of 500
+c11: 240 of 500
+c7: 240 of 500
+c9: 240 of 500
+c13: 240 of 500
+c5: 240 of 500
+c14: 240 of 500
+c16: 240 of 500
+c15: 250 of 500
+c8: 250 of 500
+c1: 250 of 500
+c3: 250 of 500
+c4: 250 of 500
+c6: 250 of 500
+c10: 250 of 500
+c2: 250 of 500
+c11: 250 of 500
+c7: 250 of 500
+c12: 250 of 500
+c5: 250 of 500
+c14: 250 of 500
+c16: 250 of 500
+c9: 250 of 500
+c13: 250 of 500
+c15: 260 of 500
+c8: 260 of 500
+c1: 260 of 500
+c3: 260 of 500
+c6: 260 of 500
+c4: 260 of 500
+c10: 260 of 500
+c2: 260 of 500
+c11: 260 of 500
+c7: 260 of 500
+c12: 260 of 500
+c5: 260 of 500
+c14: 260 of 500
+c16: 260 of 500
+c9: 260 of 500
+c13: 260 of 500
+c15: 270 of 500
+c8: 270 of 500
+c1: 270 of 500
+c3: 270 of 500
+c6: 270 of 500
+c4: 270 of 500
+c11: 270 of 500
+c10: 270 of 500
+c2: 270 of 500
+c12: 270 of 500
+c7: 270 of 500
+c5: 270 of 500
+c14: 270 of 500
+c16: 270 of 500
+c9: 270 of 500
+c13: 270 of 500
+c15: 280 of 500
+c1: 280 of 500
+c3: 280 of 500
+c8: 280 of 500
+c6: 280 of 500
+c4: 280 of 500
+c11: 280 of 500
+c10: 280 of 500
+c2: 280 of 500
+c12: 280 of 500
+c7: 280 of 500
+c5: 280 of 500
+c14: 280 of 500
+c13: 280 of 500
+c9: 280 of 500
+c16: 280 of 500
+c15: 290 of 500
+c1: 290 of 500
+c3: 290 of 500
+c8: 290 of 500
+c6: 290 of 500
+c4: 290 of 500
+c11: 290 of 500
+c2: 290 of 500
+c12: 290 of 500
+c7: 290 of 500
+c14: 290 of 500
+c5: 290 of 500
+c13: 290 of 500
+c10: 290 of 500
+c16: 290 of 500
+c9: 290 of 500
+c15: 300 of 500
+c1: 300 of 500
+c8: 300 of 500
+c6: 300 of 500
+c4: 300 of 500
+c3: 300 of 500
+c11: 300 of 500
+c2: 300 of 500
+c7: 300 of 500
+c12: 300 of 500
+c14: 300 of 500
+c5: 300 of 500
+c13: 300 of 500
+c10: 300 of 500
+c9: 300 of 500
+c16: 300 of 500
+c8: 310 of 500
+c15: 310 of 500
+c6: 310 of 500
+c4: 310 of 500
+c1: 310 of 500
+c3: 310 of 500
+c11: 310 of 500
+c2: 310 of 500
+c14: 310 of 500
+c7: 310 of 500
+c5: 310 of 500
+c12: 310 of 500
+c13: 310 of 500
+c10: 310 of 500
+c9: 310 of 500
+c16: 310 of 500
+c8: 320 of 500
+c15: 320 of 500
+c4: 320 of 500
+c6: 320 of 500
+c1: 320 of 500
+c3: 320 of 500
+c2: 320 of 500
+c11: 320 of 500
+c14: 320 of 500
+c7: 320 of 500
+c5: 320 of 500
+c12: 320 of 500
+c13: 320 of 500
+c9: 320 of 500
+c10: 320 of 500
+c16: 320 of 500
+c8: 330 of 500
+c15: 330 of 500
+c6: 330 of 500
+c1: 330 of 500
+c3: 330 of 500
+c4: 330 of 500
+c2: 330 of 500
+c11: 330 of 500
+c14: 330 of 500
+c5: 330 of 500
+c7: 330 of 500
+c12: 330 of 500
+c13: 330 of 500
+c9: 330 of 500
+c10: 330 of 500
+c16: 330 of 500
+c8: 340 of 500
+c15: 340 of 500
+c6: 340 of 500
+c1: 340 of 500
+c3: 340 of 500
+c4: 340 of 500
+c2: 340 of 500
+c11: 340 of 500
+c14: 340 of 500
+c5: 340 of 500
+c7: 340 of 500
+c12: 340 of 500
+c13: 340 of 500
+c10: 340 of 500
+c9: 340 of 500
+c8: 350 of 500
+c16: 340 of 500
+c15: 350 of 500
+c6: 350 of 500
+c1: 350 of 500
+c3: 350 of 500
+c4: 350 of 500
+c2: 350 of 500
+c11: 350 of 500
+c14: 350 of 500
+c7: 350 of 500
+c13: 350 of 500
+c12: 350 of 500
+c5: 350 of 500
+c10: 350 of 500
+c9: 350 of 500
+c8: 360 of 500
+c16: 350 of 500
+c15: 360 of 500
+c6: 360 of 500
+c1: 360 of 500
+c3: 360 of 500
+c4: 360 of 500
+c2: 360 of 500
+c11: 360 of 500
+c14: 360 of 500
+c7: 360 of 500
+c13: 360 of 500
+c12: 360 of 500
+c5: 360 of 500
+c10: 360 of 500
+c9: 360 of 500
+c15: 370 of 500
+c8: 370 of 500
+c6: 370 of 500
+c1: 370 of 500
+c3: 370 of 500
+c4: 370 of 500
+c16: 360 of 500
+c2: 370 of 500
+c11: 370 of 500
+c14: 370 of 500
+c7: 370 of 500
+c13: 370 of 500
+c12: 370 of 500
+c5: 370 of 500
+c9: 370 of 500
+c10: 370 of 500
+c15: 380 of 500
+c8: 380 of 500
+c6: 380 of 500
+c1: 380 of 500
+c3: 380 of 500
+c4: 380 of 500
+c16: 370 of 500
+c2: 380 of 500
+c11: 380 of 500
+c7: 380 of 500
+c14: 380 of 500
+c13: 380 of 500
+c12: 380 of 500
+c5: 380 of 500
+c9: 380 of 500
+c10: 380 of 500
+c15: 390 of 500
+c8: 390 of 500
+c6: 390 of 500
+c3: 390 of 500
+c1: 390 of 500
+c4: 390 of 500
+c16: 380 of 500
+c11: 390 of 500
+c2: 390 of 500
+c14: 390 of 500
+c7: 390 of 500
+c13: 390 of 500
+c12: 390 of 500
+c5: 390 of 500
+c10: 390 of 500
+c9: 390 of 500
+c15: 400 of 500
+c6: 400 of 500
+c8: 400 of 500
+c3: 400 of 500
+c1: 400 of 500
+c4: 400 of 500
+c16: 390 of 500
+c11: 400 of 500
+c2: 400 of 500
+c14: 400 of 500
+c7: 400 of 500
+c13: 400 of 500
+c12: 400 of 500
+c5: 400 of 500
+c10: 400 of 500
+c9: 400 of 500
+c15: 410 of 500
+c6: 410 of 500
+c8: 410 of 500
+c3: 410 of 500
+c4: 410 of 500
+c1: 410 of 500
+c2: 410 of 500
+c11: 410 of 500
+c16: 400 of 500
+c14: 410 of 500
+c7: 410 of 500
+c13: 410 of 500
+c12: 410 of 500
+c5: 410 of 500
+c10: 410 of 500
+c9: 410 of 500
+c15: 420 of 500
+c6: 420 of 500
+c8: 420 of 500
+c3: 420 of 500
+c4: 420 of 500
+c11: 420 of 500
+c16: 410 of 500
+c14: 420 of 500
+c7: 420 of 500
+c1: 420 of 500
+c13: 420 of 500
+c2: 420 of 500
+c12: 420 of 500
+c5: 420 of 500
+c10: 420 of 500
+c9: 420 of 500
+c15: 430 of 500
+c6: 430 of 500
+c8: 430 of 500
+c3: 430 of 500
+c4: 430 of 500
+c16: 420 of 500
+c14: 430 of 500
+c1: 430 of 500
+c11: 430 of 500
+c13: 430 of 500
+c2: 430 of 500
+c7: 430 of 500
+c12: 430 of 500
+c5: 430 of 500
+c10: 430 of 500
+c9: 430 of 500
+c15: 440 of 500
+c6: 440 of 500
+c3: 440 of 500
+c8: 440 of 500
+c4: 440 of 500
+c16: 430 of 500
+c14: 440 of 500
+c11: 440 of 500
+c13: 440 of 500
+c1: 440 of 500
+c2: 440 of 500
+c7: 440 of 500
+c12: 440 of 500
+c5: 440 of 500
+c10: 440 of 500
+c9: 440 of 500
+c15: 450 of 500
+c6: 450 of 500
+c3: 450 of 500
+c8: 450 of 500
+c4: 450 of 500
+c16: 440 of 500
+c14: 450 of 500
+c11: 450 of 500
+c13: 450 of 500
+c2: 450 of 500
+c1: 450 of 500
+c12: 450 of 500
+c7: 450 of 500
+c5: 450 of 500
+c10: 450 of 500
+c9: 450 of 500
+c15: 460 of 500
+c6: 460 of 500
+c3: 460 of 500
+c8: 460 of 500
+c4: 460 of 500
+c16: 450 of 500
+c11: 460 of 500
+c13: 460 of 500
+c2: 460 of 500
+c12: 460 of 500
+c7: 460 of 500
+c14: 460 of 500
+c1: 460 of 500
+c5: 460 of 500
+c10: 460 of 500
+c9: 460 of 500
+c15: 470 of 500
+c6: 470 of 500
+c3: 470 of 500
+c8: 470 of 500
+c4: 470 of 500
+c16: 460 of 500
+c11: 470 of 500
+c13: 470 of 500
+c2: 470 of 500
+c12: 470 of 500
+c7: 470 of 500
+c14: 470 of 500
+c1: 470 of 500
+c10: 470 of 500
+c5: 470 of 500
+c9: 470 of 500
+c15: 480 of 500
+c6: 480 of 500
+c3: 480 of 500
+c8: 480 of 500
+c4: 480 of 500
+c11: 480 of 500
+c13: 480 of 500
+c2: 480 of 500
+c12: 480 of 500
+c7: 480 of 500
+c14: 480 of 500
+c16: 470 of 500
+c1: 480 of 500
+c10: 480 of 500
+c5: 480 of 500
+c15: 490 of 500
+c6: 490 of 500
+c3: 490 of 500
+c9: 480 of 500
+c8: 490 of 500
+c4: 490 of 500
+c11: 490 of 500
+c13: 490 of 500
+c12: 490 of 500
+c2: 490 of 500
+c7: 490 of 500
+c14: 490 of 500
+c16: 480 of 500
+c1: 490 of 500
+c10: 490 of 500
+c5: 490 of 500
+c6: 500 of 500
+client 6 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 6 ended
+metrics from 6 collected
+c8: 500 of 500
+client 8 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 8 ended
+metrics from 8 collected
+c4: 500 of 500
+client 4 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 4 ended
+metrics from 4 collected
+c15: 500 of 500
+client 15 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 15 ended
+metrics from 15 collected
+c3: 500 of 500
+client 3 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+client 3 ended
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+metrics from 3 collected
+c9: 490 of 500
+c11: 500 of 500
+client 11 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 11 ended
+metrics from 11 collected
+c13: 500 of 500
+client 13 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 13 ended
+metrics from 13 collected
+c12: 500 of 500
+client 12 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 12 ended
+metrics from 12 collected
+c2: 500 of 500
+client 2 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 2 ended
+metrics from 2 collected
+c14: 500 of 500
+client 14 exited loop
+c7: 500 of 500
+client 7 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 14 ended
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+metrics from 14 collected
+client 7 ended
+metrics from 7 collected
+c16: 490 of 500
+c1: 500 of 500
+client 1 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+client 1 ended
+[client_rw] error while receiving message from parent to server
+metrics from 1 collected
+c10: 500 of 500
+client 10 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 10 ended
+metrics from 10 collected
+c5: 500 of 500
+client 5 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 5 ended
+metrics from 5 collected
+c9: 500 of 500
+client 9 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 9 ended
+metrics from 9 collected
+c16: 500 of 500
+client 16 exited loop
+[batcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/batcher.rs:91:13
+[unbatcher] error receiving message from parent
+
+Location:
+    /root/fantoch/fantoch/src/run/task/client/unbatcher.rs:49:13
+[client_rw] error while receiving message from parent to server
+client 16 ended
+metrics from 16 collected
+will write client data to client_1.metrics
+all clients ended
