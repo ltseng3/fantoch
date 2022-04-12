@@ -120,6 +120,11 @@ macro_rules! config {
 async fn main() -> Result<(), Report> {
     // fast_path_plot().await
     fairness_and_tail_latency_plot().await
+    // tempo31().await
+    // tempo52().await    
+    // tempo72().await    
+    // tempo92().await    
+    // tempo113().await    
     // increasing_load_plot().await
     // batching_plot().await
     // increasing_sites_plot().await
@@ -897,6 +902,378 @@ async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
     
     baremetal_bench(
     // aws_bench(
+        regions,
+        shard_count,
+        planet,
+        configs,
+        clients_per_region,
+        workloads,
+        batch_max_sizes,
+        cpus,
+        &mut skip,
+        &mut progress,
+        results_dir,
+    )
+    .await
+}
+
+#[allow(dead_code)]
+async fn tempo31() -> Result<(), Report> {
+    let results_dir = "../results_tempo31";
+    let regions = vec![
+        Region::UsWest1,
+        Region::UsEast1,   
+        Region::EuWest1,
+    ];
+    let n = regions.len();
+
+    let mut configs = vec![
+        (Protocol::TempoAtomic, config!(n, 1, false, None, false)),
+    ];
+
+    let clients_per_region = vec![16];
+    let batch_max_sizes = vec![1];
+    let shard_count = 1;
+    let keys_per_command = 1;
+    let payload_size = 8;
+    let cpus = 8;
+    let key_gen = KeyGen::ConflictPool {
+        conflict_rate: 2,
+        pool_size: 1,
+    };
+    let key_gens = vec![key_gen];
+
+    let mut workloads = Vec::new();
+    for key_gen in key_gens {
+        let workload = Workload::new(
+            shard_count,
+            key_gen,
+            keys_per_command,
+            COMMANDS_PER_CLIENT_WAN,
+            payload_size,
+        );
+        workloads.push(workload);
+    }
+
+    let mut skip = |_, _, _| false;
+
+    // set shards in each config
+    configs
+        .iter_mut()
+        .for_each(|(_protocol, config)| config.set_shard_count(shard_count));
+
+    // init logging
+    let mut progress = TracingProgressBar::init(
+        (workloads.len()
+            * clients_per_region.len()
+            * configs.len()
+            * batch_max_sizes.len()) as u64,
+    );
+
+    let planet = Some(Planet::from(LATENCY_AWS));
+    
+    baremetal_bench(
+        regions,
+        shard_count,
+        planet,
+        configs,
+        clients_per_region,
+        workloads,
+        batch_max_sizes,
+        cpus,
+        &mut skip,
+        &mut progress,
+        results_dir,
+    )
+    .await
+}
+
+#[allow(dead_code)]
+async fn tempo52() -> Result<(), Report> {
+    let results_dir = "../results_tempo52";
+    let regions = vec![
+        Region::UsWest1,
+        Region::UsEast1,   
+        Region::EuWest1,
+        Region::UsWest2,
+        Region::ApNortheast1
+    ];
+    let n = regions.len();
+
+    let mut configs = vec![
+        (Protocol::TempoAtomic, config!(n, 2, false, None, false)),
+    ];
+
+    let clients_per_region = vec![16];
+    let batch_max_sizes = vec![1];
+    let shard_count = 1;
+    let keys_per_command = 1;
+    let payload_size = 8;
+    let cpus = 8;
+    let key_gen = KeyGen::ConflictPool {
+        conflict_rate: 2,
+        pool_size: 1,
+    };
+    let key_gens = vec![key_gen];
+
+    let mut workloads = Vec::new();
+    for key_gen in key_gens {
+        let workload = Workload::new(
+            shard_count,
+            key_gen,
+            keys_per_command,
+            COMMANDS_PER_CLIENT_WAN,
+            payload_size,
+        );
+        workloads.push(workload);
+    }
+
+    let mut skip = |_, _, _| false;
+
+    // set shards in each config
+    configs
+        .iter_mut()
+        .for_each(|(_protocol, config)| config.set_shard_count(shard_count));
+
+    // init logging
+    let mut progress = TracingProgressBar::init(
+        (workloads.len()
+            * clients_per_region.len()
+            * configs.len()
+            * batch_max_sizes.len()) as u64,
+    );
+
+    let planet = Some(Planet::from(LATENCY_AWS));
+    
+    baremetal_bench(
+        regions,
+        shard_count,
+        planet,
+        configs,
+        clients_per_region,
+        workloads,
+        batch_max_sizes,
+        cpus,
+        &mut skip,
+        &mut progress,
+        results_dir,
+    )
+    .await
+}
+
+#[allow(dead_code)]
+async fn tempo72() -> Result<(), Report> {
+    let results_dir = "../results_tempo72";
+    let regions = vec![
+        Region::UsWest1,
+        Region::UsEast1,   
+        Region::EuWest1,
+        Region::UsWest2,
+        Region::MeSouth1,
+        Region::EuWest2,
+    ];
+    let n = regions.len();
+
+    let mut configs = vec![
+        (Protocol::TempoAtomic, config!(n, 2, false, None, false)),
+    ];
+
+    let clients_per_region = vec![16];
+    let batch_max_sizes = vec![1];
+    let shard_count = 1;
+    let keys_per_command = 1;
+    let payload_size = 8;
+    let cpus = 8;
+    let key_gen = KeyGen::ConflictPool {
+        conflict_rate: 2,
+        pool_size: 1,
+    };
+    let key_gens = vec![key_gen];
+
+    let mut workloads = Vec::new();
+    for key_gen in key_gens {
+        let workload = Workload::new(
+            shard_count,
+            key_gen,
+            keys_per_command,
+            COMMANDS_PER_CLIENT_WAN,
+            payload_size,
+        );
+        workloads.push(workload);
+    }
+
+    let mut skip = |_, _, _| false;
+
+    // set shards in each config
+    configs
+        .iter_mut()
+        .for_each(|(_protocol, config)| config.set_shard_count(shard_count));
+
+    // init logging
+    let mut progress = TracingProgressBar::init(
+        (workloads.len()
+            * clients_per_region.len()
+            * configs.len()
+            * batch_max_sizes.len()) as u64,
+    );
+
+    let planet = Some(Planet::from(LATENCY_AWS));
+    
+    baremetal_bench(
+        regions,
+        shard_count,
+        planet,
+        configs,
+        clients_per_region,
+        workloads,
+        batch_max_sizes,
+        cpus,
+        &mut skip,
+        &mut progress,
+        results_dir,
+    )
+    .await
+}
+
+#[allow(dead_code)]
+async fn tempo92() -> Result<(), Report> {
+    let results_dir = "../results_tempo92";
+    let regions = vec![
+        Region::UsWest1,
+        Region::UsEast1,   
+        Region::EuWest1,
+        Region::UsWest2,
+        Region::MeSouth1,
+        Region::EuWest2,
+        Region::EuWest3,        
+        Region::CaCentral1,                
+    ];
+    let n = regions.len();
+
+    let mut configs = vec![
+        (Protocol::TempoAtomic, config!(n, 2, false, None, false)),
+    ];
+
+    let clients_per_region = vec![16];
+    let batch_max_sizes = vec![1];
+    let shard_count = 1;
+    let keys_per_command = 1;
+    let payload_size = 8;
+    let cpus = 8;
+    let key_gen = KeyGen::ConflictPool {
+        conflict_rate: 2,
+        pool_size: 1,
+    };
+    let key_gens = vec![key_gen];
+
+    let mut workloads = Vec::new();
+    for key_gen in key_gens {
+        let workload = Workload::new(
+            shard_count,
+            key_gen,
+            keys_per_command,
+            COMMANDS_PER_CLIENT_WAN,
+            payload_size,
+        );
+        workloads.push(workload);
+    }
+
+    let mut skip = |_, _, _| false;
+
+    // set shards in each config
+    configs
+        .iter_mut()
+        .for_each(|(_protocol, config)| config.set_shard_count(shard_count));
+
+    // init logging
+    let mut progress = TracingProgressBar::init(
+        (workloads.len()
+            * clients_per_region.len()
+            * configs.len()
+            * batch_max_sizes.len()) as u64,
+    );
+
+    let planet = Some(Planet::from(LATENCY_AWS));
+    
+    baremetal_bench(
+        regions,
+        shard_count,
+        planet,
+        configs,
+        clients_per_region,
+        workloads,
+        batch_max_sizes,
+        cpus,
+        &mut skip,
+        &mut progress,
+        results_dir,
+    )
+    .await
+}
+
+#[allow(dead_code)]
+async fn tempo113() -> Result<(), Report> {
+    let results_dir = "../results_tempo113";
+    let regions = vec![
+        Region::UsWest1,
+        Region::UsEast1,   
+        Region::EuWest1,
+        Region::UsWest2,
+        Region::MeSouth1,
+        Region::EuWest2,
+        Region::EuWest3,        
+        Region::CaCentral1,   
+        Region::AfSouth1,           
+        Region::SaEast1,                   
+    ];
+    let n = regions.len();
+
+    let mut configs = vec![
+        (Protocol::TempoAtomic, config!(n, 3, false, None, false)),
+    ];
+
+    let clients_per_region = vec![16];
+    let batch_max_sizes = vec![1];
+    let shard_count = 1;
+    let keys_per_command = 1;
+    let payload_size = 8;
+    let cpus = 8;
+    let key_gen = KeyGen::ConflictPool {
+        conflict_rate: 2,
+        pool_size: 1,
+    };
+    let key_gens = vec![key_gen];
+
+    let mut workloads = Vec::new();
+    for key_gen in key_gens {
+        let workload = Workload::new(
+            shard_count,
+            key_gen,
+            keys_per_command,
+            COMMANDS_PER_CLIENT_WAN,
+            payload_size,
+        );
+        workloads.push(workload);
+    }
+
+    let mut skip = |_, _, _| false;
+
+    // set shards in each config
+    configs
+        .iter_mut()
+        .for_each(|(_protocol, config)| config.set_shard_count(shard_count));
+
+    // init logging
+    let mut progress = TracingProgressBar::init(
+        (workloads.len()
+            * clients_per_region.len()
+            * configs.len()
+            * batch_max_sizes.len()) as u64,
+    );
+
+    let planet = Some(Planet::from(LATENCY_AWS));
+    
+    baremetal_bench(
         regions,
         shard_count,
         planet,
