@@ -25,8 +25,9 @@ const EXPERIMENT_TIMEOUTS: ExperimentTimeouts = ExperimentTimeouts {
 };
 
 // latency dir
-const LATENCY_AWS: &str = "../latency_aws/2020_06_05";
+// const LATENCY_AWS: &str = "../latency_aws/2020_06_05";
 // const LATENCY_AWS: &str = "../latency_aws/2021_02_13";
+const LATENCY_AWS: &str = "../latency_aws/2022_Gus";
 
 // aws experiment config
 const LAUCH_MODE: LaunchMode = LaunchMode::OnDemand;
@@ -43,7 +44,7 @@ const GC_INTERVAL: Option<Duration> = Some(Duration::from_millis(50));
 const SEND_DETACHED_INTERVAL: Duration = Duration::from_millis(5);
 
 // clients config
-const COMMANDS_PER_CLIENT_WAN: usize = 500;
+const COMMANDS_PER_CLIENT_WAN: usize = 5_000;
 const COMMANDS_PER_CLIENT_LAN: usize = 5_000;
 const TOTAL_KEYS_PER_SHARD: usize = 1_000_000;
 
@@ -849,7 +850,7 @@ async fn fairness_and_tail_latency_plot() -> Result<(), Report> {
 
     let shard_count = 1;
     let keys_per_command = 1;
-    let payload_size = 100;
+    let payload_size = 8;
     let cpus = 8;
 
     let key_gen = KeyGen::ConflictPool {
