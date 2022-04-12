@@ -44,7 +44,7 @@ const GC_INTERVAL: Option<Duration> = Some(Duration::from_millis(50));
 const SEND_DETACHED_INTERVAL: Duration = Duration::from_millis(5);
 
 // clients config
-const COMMANDS_PER_CLIENT_WAN: usize = 5_000;
+const COMMANDS_PER_CLIENT_WAN: usize = 500;
 const COMMANDS_PER_CLIENT_LAN: usize = 5_000;
 const TOTAL_KEYS_PER_SHARD: usize = 1_000_000;
 
