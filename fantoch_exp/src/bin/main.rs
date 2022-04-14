@@ -952,6 +952,7 @@ async fn tempo31() -> Result<(), Report> {
             COMMANDS_PER_CLIENT_WAN,
             payload_size,
         );
+        workload.set_read_only_percentage(94.5);
         workloads.push(workload);
     }
 
@@ -1025,6 +1026,7 @@ async fn tempo52() -> Result<(), Report> {
             COMMANDS_PER_CLIENT_WAN,
             payload_size,
         );
+        workload.set_read_only_percentage(94.5);        
         workloads.push(workload);
     }
 
@@ -1100,6 +1102,7 @@ async fn tempo72() -> Result<(), Report> {
             COMMANDS_PER_CLIENT_WAN,
             payload_size,
         );
+        workload.set_read_only_percentage(94.5);
         workloads.push(workload);
     }
 
@@ -1177,6 +1180,7 @@ async fn tempo92() -> Result<(), Report> {
             COMMANDS_PER_CLIENT_WAN,
             payload_size,
         );
+        workload.set_read_only_percentage(94.5);
         workloads.push(workload);
     }
 
@@ -1256,6 +1260,7 @@ async fn tempo113() -> Result<(), Report> {
             COMMANDS_PER_CLIENT_WAN,
             payload_size,
         );
+        workload.set_read_only_percentage(94.5);
         workloads.push(workload);
     }
 
