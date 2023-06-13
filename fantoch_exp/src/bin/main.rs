@@ -945,7 +945,7 @@ async fn tempo31() -> Result<(), Report> {
 
     let mut workloads = Vec::new();
     for key_gen in key_gens {
-        let workload = Workload::new(
+        let mut workload = Workload::new(
             shard_count,
             key_gen,
             keys_per_command,
@@ -1019,7 +1019,7 @@ async fn tempo52() -> Result<(), Report> {
 
     let mut workloads = Vec::new();
     for key_gen in key_gens {
-        let workload = Workload::new(
+        let mut workload = Workload::new(
             shard_count,
             key_gen,
             keys_per_command,
@@ -1095,7 +1095,7 @@ async fn tempo72() -> Result<(), Report> {
 
     let mut workloads = Vec::new();
     for key_gen in key_gens {
-        let workload = Workload::new(
+        let mut workload = Workload::new(
             shard_count,
             key_gen,
             keys_per_command,
@@ -1173,7 +1173,7 @@ async fn tempo92() -> Result<(), Report> {
 
     let mut workloads = Vec::new();
     for key_gen in key_gens {
-        let workload = Workload::new(
+        let mut workload = Workload::new(
             shard_count,
             key_gen,
             keys_per_command,
@@ -1253,7 +1253,7 @@ async fn tempo113() -> Result<(), Report> {
 
     let mut workloads = Vec::new();
     for key_gen in key_gens {
-        let workload = Workload::new(
+        let mut workload = Workload::new(
             shard_count,
             key_gen,
             keys_per_command,
